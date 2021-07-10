@@ -7,6 +7,9 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
+	  <head>
+		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	  </head>
     <Seo title="Home" />
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
