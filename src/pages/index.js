@@ -11,10 +11,11 @@ const IndexPage = () => (
 		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 	  </head>
     <Seo title="Home" />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
+	<div className="landingDiv">
+		<label className="title">Good Guys Realty</label>
+		<button>I want to sell.</button>
+		<button>I want to buy.</button>
+	</div>
   </Layout>
 )
 
