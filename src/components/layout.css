@@ -1,10 +1,12 @@
-.landingDiv {
-	background-image: url("https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
-	position: absolute;
-  height: 100%;
 
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+#__gatsby, #__gatsby > div{
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content:flex-start;
+	background-color: blue;
+	height: 100000px;
+}
+
+button {
+	background-color:yellow;
 }
