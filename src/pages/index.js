@@ -12,10 +12,14 @@ const IndexPage = () => (
 	</head>
     <Seo title="Home" />
 	<div className="header-background-img-section"></div>	
-	<div className="landingDiv">
-		<label className="title">Good Guys Realty</label>
-		<button>I want to sell.</button>
-		<button>I want to buy.</button>
+	<div className="content">
+		<h1 className="title">Good Guys Realty</h1>
+		<div className="buttonDiv">
+			<div className="buttonDiv2">
+				<button type="button" class="btn btn-primary">I want to sell.</button>
+				<button type="button" class="btn btn-primary">I want to buy.</button>
+			</div>
+		</div>
 	</div>
   </Layout>
 )
