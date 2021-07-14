@@ -16,7 +16,7 @@ html, body {
 	align-content: center;
 	justify-content: center;
 
-	filter: blur(8px);
+	filter: blur(7px);
 
 	background-repeat: no-repeat;
     background-position: center;
@@ -38,8 +38,7 @@ html, body {
 }
 
 button {
-	margin-top: 1rem;
-	font-size: 1.2rem;
+	margin: 1rem;
 }
 
 .buttonDiv {
@@ -63,6 +62,14 @@ button {
 	max-height: 100vh;
 }
 
+.logo {
+	position: absolute;
+	top: 0%;
+	margin: 1rem;
+	width: 120px;
+	height: auto;
+}
+
 img {
 	height: 100%;
 	object-fit:cover;
@@ -73,3 +80,12 @@ img {
 	flex-direction: column;
 }
 
+.subtitle {
+	color: white;
+}
+
+@media only screen and (max-width: 700px) {
+	* {
+		color: purple;
+	}
+}
