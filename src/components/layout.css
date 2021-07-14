@@ -48,7 +48,7 @@ button {
 
 .buttonDiv2 {
 	width: 50%;
-	min-width: 200px;
+	min-width: 120px;
 
 	display: flex;
 	justify-content: space-around;
