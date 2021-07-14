@@ -13,7 +13,7 @@ const IndexPage = () => (
     <Seo title="Home" />
 	<div className="header-background-img-section"></div>	
 	<div className="content">
-		<h1 className="title">Good Guys Realty</h1>
+		<h1 className="title">Karen Aaker Realty</h1>
 		<div className="buttonDiv">
 			<div className="buttonDiv2">
 				<button type="button" class="btn btn-primary">I want to sell.</button>
