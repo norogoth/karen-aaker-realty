@@ -12,7 +12,7 @@ const IndexPage = () => (
 	</head>
     <Seo title="Home" />
 	<div className="header-background-img-section"></div>	
-	<img className="logo" src="explogo.png" alt="EXP Realty"/>
+	<StaticImage className="logo" src="../images/explogo.png" alt="EXP Realty"/>
 	<div className="content">
 		<h1 className="title">Karen Aaker Realty</h1>
 		<p className="subtitle">CRMLS - eXp Realty of California, Inc. CA DRE#01878277</p>
