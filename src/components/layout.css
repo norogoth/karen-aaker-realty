@@ -1,12 +1,14 @@
+html, body, #__gatsby, #__gatsby > div, .layoutDiv, main{
+	min-height: 100vh;
+}
 
-#__gatsby, #__gatsby > div{
+img {
+	height: 100%;
+}
+
+#___gatsby, #___gatsby > div{
 	display: flex;
-	flex-direction: column-reverse;
-	justify-content:flex-start;
-	background-color: blue;
-	height: 100000px;
+	flex-direction: column;
+	background-size: cover;
 }
 
-button {
-	background-color:yellow;
-}
