@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
 
   return (
 	<div className="layoutDiv">
-		<main>{children}</main>
+		{children}
 	</div>
   )
 }

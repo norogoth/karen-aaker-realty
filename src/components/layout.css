@@ -1,14 +1,40 @@
-html, body, #__gatsby, #__gatsby > div, .layoutDiv, main{
-	min-height: 100vh;
+html, body {
+	margin: 0px;
+	min-height: 100%;
+}
+
+.header-background-img-section {
+	background-image: url("https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+	height: 100vh;
+
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.landingDiv {
+	position: absolute;
+    top: 50%;    
+    width: 100%;
+    text-align: center;
+}
+
+
+
+#___gatsby, #___gatsby > div {
+	height:100vh;
+}
+
+.layoutDiv{
+	max-height: 100vh;
 }
 
 img {
 	height: 100%;
+	object-fit:cover;
 }
 
 #___gatsby, #___gatsby > div{
 	display: flex;
 	flex-direction: column;
-	background-size: cover;
 }
 
